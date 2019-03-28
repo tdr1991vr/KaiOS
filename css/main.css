@@ -126,7 +126,6 @@ h1, .h01 {
 h2, .h02 {
   font-size: 2.4rem;
   line-height: 1.25;
-  color: white;
 }
 
 h3, .h03 {
@@ -393,26 +392,26 @@ img.pull-left {
  * block grids paddings
  * ------------------------------------------------------------------- */
 .bgrid {
-  padding: 0 1%;
+  padding: 0 20px;
 }
 @media only screen and (max-width: 1024px) {
   .bgrid {
-    padding: 2%;
+    padding: 0 18px;
   }
 }
 @media only screen and (max-width: 768px) {
   .bgrid {
-    padding: 3%;
+    padding: 0 15px;
   }
 }
 @media only screen and (max-width: 600px) {
   .bgrid {
-    padding: 3%;
+    padding: 0 10px;
   }
 }
 @media only screen and (max-width: 400px) {
   .bgrid {
-    padding: 5%;
+    padding: 0;
   }
 }
 
@@ -1133,7 +1132,7 @@ input::-moz-focus-inner {
 .section-intro {
   text-align: center;
   position: relative;
-  margin-bottom: 0px;
+  margin-bottom: 1.5rem;
 }
 .section-intro h1 {
   font-family: "librebaskerville-bold", serif;
@@ -1156,7 +1155,7 @@ input::-moz-focus-inner {
   line-height: 1.833;
 }
 .section-intro.with-bottom-sep {
-  padding-bottom: 1%;
+  padding-bottom: 4.2rem;
   position: relative;
 }
 .section-intro.with-bottom-sep::after {
@@ -1546,8 +1545,8 @@ header .header-logo a {
 }
 .home-content-tablecell .row {
   position: relative;
-  padding-top: 2%;
-  padding-bottom: 2%;
+  padding-top: 16.2rem;
+  padding-bottom: 15rem;
 }
 .home-content-tablecell h3 {
   font-family: "montserrat-bold", sans-serif;
@@ -1725,8 +1724,8 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
 
   .home-content-tablecell .row {
     max-width: 480px;
-    padding-top: 2%;
-    padding-bottom: 2%;
+    padding-top: 12rem;
+    padding-bottom: 12rem;
   }
   .home-content-tablecell h3 {
     font-size: 1.7rem;
@@ -1761,8 +1760,8 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   }
 
   .home-content-tablecell .row {
-    padding-top: 2%;
-    padding-bottom: 2%;
+    padding-top: 4.8rem;
+    padding-bottom: 10.8rem;
   }
   .home-content-tablecell h3 {
     font-size: 1.4rem;
@@ -2274,7 +2273,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   background-size: cover;
   min-height: 800px;
   position: relative;
-  padding: 5% 5% ;
+  padding: 15rem 0 15rem;
   color: rgba(255, 255, 255, 0.3);
 }
 #pumpwatch .overlay {
@@ -2306,7 +2305,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
 #pumpwatch .section-intro .lead {
   color: rgba(242, 242, 242, 0.4);
 }
-#pumpwatch .pumpwatch-content {
+#pumpwatch .services-content {
   text-align: center;
   max-width: 1040px;
 }
@@ -2316,7 +2315,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
 }
 #pumpwatch .services-list .service-item {
   margin-bottom: 3rem;
-  padding: 0 5px;
+  padding: 0 50px;
 }
 #pumpwatch .services-list .service-item p {
   color: rgba(242, 242, 242, 0.5);
@@ -2335,14 +2334,6 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   color: #FFFFFF;
   margin-bottom: 3rem;
 }
-#pumpwatch .videocontainer {
-  position: relative; 
-  padding bottom: 56.25%; 
-  padding top: 30px; 
-  height: 0; 
-  overflow: hidden; 
-} 
-#pumpwatch .videocontainer { iframe, .vi } 
 
 /* ------------------------------------------------------------------- 
  * responsive:
