@@ -19,6 +19,7 @@
  *  12. services
  *  13. portfolio
  *  14. testimonials
+ *  XX. PumpWatch
  *  15. clients
  *  16. contact
  *  17. footer
@@ -125,6 +126,7 @@ h1, .h01 {
 h2, .h02 {
   font-size: 2.4rem;
   line-height: 1.25;
+  color: white;
 }
 
 h3, .h03 {
@@ -391,26 +393,26 @@ img.pull-left {
  * block grids paddings
  * ------------------------------------------------------------------- */
 .bgrid {
-  padding: 0 20px;
+  padding: 0 1%;
 }
 @media only screen and (max-width: 1024px) {
   .bgrid {
-    padding: 0 18px;
+    padding: 2%;
   }
 }
 @media only screen and (max-width: 768px) {
   .bgrid {
-    padding: 0 15px;
+    padding: 3%;
   }
 }
 @media only screen and (max-width: 600px) {
   .bgrid {
-    padding: 0 10px;
+    padding: 3%;
   }
 }
 @media only screen and (max-width: 400px) {
   .bgrid {
-    padding: 0;
+    padding: 5%;
   }
 }
 
@@ -751,7 +753,7 @@ input[type="submit"]:focus,
 input[type="reset"]:focus,
 input[type="button"]:focus {
   background: #989898;
-  color: #000000;
+  color: #858585;
   outline: 0;
 }
 
@@ -798,7 +800,7 @@ button.large, .button.large {
 
 button.stroke, .button.stroke {
   background: transparent !important;
-  border: 3px solid #313131;
+  border: 3px solid #ffffff;
   line-height: 4.8rem;
 }
 
@@ -1131,7 +1133,7 @@ input::-moz-focus-inner {
 .section-intro {
   text-align: center;
   position: relative;
-  margin-bottom: 1.5rem;
+  margin-bottom: 0px;
 }
 .section-intro h1 {
   font-family: "librebaskerville-bold", serif;
@@ -1154,7 +1156,7 @@ input::-moz-focus-inner {
   line-height: 1.833;
 }
 .section-intro.with-bottom-sep {
-  padding-bottom: 4.2rem;
+  padding-bottom: 1%;
   position: relative;
 }
 .section-intro.with-bottom-sep::after {
@@ -1544,8 +1546,8 @@ header .header-logo a {
 }
 .home-content-tablecell .row {
   position: relative;
-  padding-top: 16.2rem;
-  padding-bottom: 15rem;
+  padding-top: 2%;
+  padding-bottom: 2%;
 }
 .home-content-tablecell h3 {
   font-family: "montserrat-bold", sans-serif;
@@ -1723,8 +1725,8 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
 
   .home-content-tablecell .row {
     max-width: 480px;
-    padding-top: 12rem;
-    padding-bottom: 12rem;
+    padding-top: 2%;
+    padding-bottom: 2%;
   }
   .home-content-tablecell h3 {
     font-size: 1.7rem;
@@ -1759,8 +1761,8 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   }
 
   .home-content-tablecell .row {
-    padding-top: 4.8rem;
-    padding-bottom: 10.8rem;
+    padding-top: 2%;
+    padding-bottom: 2%;
   }
   .home-content-tablecell h3 {
     font-size: 1.4rem;
@@ -1881,7 +1883,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
 
 
 /* ===================================================================
- *  12. services - (_layout.scss)
+ *  12. Skills - (_layout.scss)
  *
  * ------------------------------------------------------------------- */
 #skills {
@@ -2258,9 +2260,135 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   }
 }
 
+/* ===================================================================
+ *  14. PumpWatch - (_layout.scss)
+ *
+ * ------------------------------------------------------------------- */
+ #pumpwatch {
+  background-color: #19191b;
+  background-image: url(https://www.tankpro.nl/wp-content/uploads/2018/11/BB_061118_0541-e1542273810126.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  min-height: 800px;
+  position: relative;
+  padding: 5% 5% ;
+  color: rgba(255, 255, 255, 0.3);
+}
+#pumpwatch .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(5, 5, 5, 0.9);
+}
+#pumpwatch .whitegradient-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: .9;
+  background: -moz-linear-gradient(top,  rgba(255, 255, 255, 0.945)) 0%, transparent 100%);
+  background: -webkit-linear-gradient(top,  rgba(255, 255, 255, 0.945)) 0%, transparent 100%);
+  background: linear-gradient(to bottom,  rgba(255, 255, 255, 0.945)) 0%, transparent 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d9000000', endColorstr='#00000000',GradientType=0 );
+}
+#pumpwatch .section-intro h3 {
+  color: rgba(242, 242, 242, 0.5);
+}
+#pumpwatch .section-intro h1 {
+  color: #FFFFFF;
+}
+#pumpwatch .section-intro .lead {
+  color: rgba(242, 242, 242, 0.4);
+}
+#pumpwatch .pumpwatch-content {
+  text-align: center;
+  max-width: 1040px;
+}
+#pumpwatch .services-list {
+  margin-top: 1.2rem;
+  text-align: center;
+}
+#pumpwatch .services-list .service-item {
+  margin-bottom: 3rem;
+  padding: 0 5px;
+}
+#pumpwatch .services-list .service-item p {
+  color: rgba(242, 242, 242, 0.5);
+}
+#pumpwatch .services-list .icon {
+  display: inline-block;
+  margin-bottom: 1.5rem;
+}
+#pumpwatch .services-list .icon i {
+  font-size: 5.4rem;
+  color: #90e9ff;
+}
+#pumpwatch .services-list .h05 {
+  font-size: 1.7rem;
+  line-height: 1.765;
+  color: #FFFFFF;
+  margin-bottom: 3rem;
+}
+#pumpwatch .videocontainer {
+  position: relative; 
+  padding bottom: 56.25%; 
+  padding top: 30px; 
+  height: 0; 
+  overflow: hidden; 
+} 
+#pumpwatch .videocontainer { iframe, .vi } 
+
+/* ------------------------------------------------------------------- 
+ * responsive:
+ * PumpWatch
+ * ------------------------------------------------------------------- */
+@media only screen and (max-width: 1024px) {
+  #pumpwatch .services-list .service-item {
+    padding: 0 40px;
+  }
+}
+@media only screen and (max-width: 900px) {
+  #pumpwatch .services-list .service-item {
+    padding: 0 30px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  #pumpwatch {
+    padding: 12rem 0 12rem;
+  }
+  #pumpwatch .services-content {
+    max-width: 550px;
+  }
+  #pumpwatch .services-list .service-item {
+    padding: 0 15px;
+  }
+  #pumpwatch .services-list .icon i {
+    font-size: 5.1rem;
+  }
+}
+@media only screen and (max-width: 600px) {
+  #pumpwatch .services-list .service-item {
+    padding: 0 10px;
+  }
+  #pumpwatch .services-list .icon i {
+    font-size: 5rem;
+  }
+}
+@media only screen and (max-width: 400px) {
+  #pumpwatch .services-list .service-item {
+    padding: 0;
+  }
+}
+
 
 /* ===================================================================
- *  14. testimonials - (_layout.scss)
+ *  XX. testimonials - (_layout.scss)
  *
  * ------------------------------------------------------------------- */
 #testimonials {
