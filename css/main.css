@@ -18,8 +18,8 @@
  *  11. about
  *  12. services
  *  13. portfolio
- *  14. testimonials
- *  XX. PumpWatch
+ *  XX. testimonials
+ *  14. PumpWatch
  *  15. clients
  *  16. contact
  *  17. footer
@@ -97,7 +97,7 @@ a:hover, a:focus {
 h1, h2, h3, h4, h5, h6,
 .h01, .h02, .h03, .h04, .h05, .h06 {
   font-family: "montserrat-bold", sans-serif;
-  color: #151515;
+  color: #FBF1EF;
   font-style: normal;
   text-rendering: optimizeLegibility;
   margin-bottom: 2.1rem;
@@ -143,6 +143,7 @@ h5, .h05 {
   line-height: 1.7;
   text-transform: uppercase;
   letter-spacing: .2rem;
+  color: #FBF1EF;
 }
 
 h6, .h06 {
@@ -859,7 +860,7 @@ input::-moz-focus-inner {
 
 .ss-info {
   background-color: #d7ecfb;
-  color: #4a95cc;
+  color: #FBF1EF;
 }
 
 .ss-notice {
@@ -1913,9 +1914,9 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   width: 100%;
   height: 100%;
   opacity: .4;
-  background: -moz-linear-gradient(top, rgba(0, 0, 0, 0.85) 0%, transparent 100%);
-  background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.85) 0%, transparent 100%);
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.85) 0%, transparent 100%);
+  background: -moz-linear-gradient(top, #BFDFAD95, transparent 100%);
+  background: -webkit-linear-gradient(top,  #BFDFAD95, transparent 100%);
+  background: linear-gradient(to bottom,  #BFDFAD95, transparent 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d9000000', endColorstr='#00000000',GradientType=0 );
 }
 #skills .section-intro h3 {
@@ -1948,12 +1949,12 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
 }
 #skills .services-list .icon i {
   font-size: 5.4rem;
-  color: #90e9ff;
+  color: #FBF1EF;
 }
 #skills .services-list .h05 {
   font-size: 1.7rem;
   line-height: 1.765;
-  color: #FFFFFF;
+  color: #FBF1EF;
   margin-bottom: 3rem;
 }
 
@@ -2012,7 +2013,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
 }
 #portfolio .intro-wrap {
   padding: 15rem 0 21rem;
-  background: #111111;
+  background: #EEBFAB;
 }
 #portfolio .section-intro h3 {
   color: rgba(242, 242, 242, 0.5);
@@ -2021,7 +2022,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   color: #FFFFFF;
 }
 #portfolio .section-intro .lead {
-  color: rgba(242, 242, 242, 0.4);
+  color: rgba(242, 242, 242, 0.8);
 }
 #portfolio .portfolio-content {
   margin-top: -22.2rem;
@@ -2291,9 +2292,9 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   width: 100%;
   height: 100%;
   opacity: .9;
-  background: -moz-linear-gradient(top,  rgba(255, 255, 255, 0.945)) 0%, transparent 100%);
-  background: -webkit-linear-gradient(top,  rgba(255, 255, 255, 0.945)) 0%, transparent 100%);
-  background: linear-gradient(to bottom,  rgba(255, 255, 255, 0.945)) 0%, transparent 100%);
+  background: -moz-linear-gradient(top,  #B7ABED95, transparent 100%);
+  background: -webkit-linear-gradient(top,  #B7ABED95, transparent 100%);
+  background: linear-gradient(to bottom,  #B7ABED95, transparent 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d9000000', endColorstr='#00000000',GradientType=0 );
 }
 #pumpwatch .section-intro h3 {
@@ -2331,7 +2332,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
 #pumpwatch .services-list .h05 {
   font-size: 1.7rem;
   line-height: 1.765;
-  color: #FFFFFF;
+  color: #FBF1EF;
   margin-bottom: 3rem;
 }
 
