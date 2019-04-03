@@ -1514,7 +1514,7 @@ header .header-logo a {
   background-color: #B7ABED95;
   background-image: url(../images/hero-bg.jpg);
   background-repeat: no-repeat;
-  background-position: left 10%;
+  background-position: left 100%;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
