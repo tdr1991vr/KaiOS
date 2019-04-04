@@ -162,7 +162,7 @@ p.lead {
   font-size: 2rem;
   line-height: 1.8;
   color: #4f4f4f;
-  margin-bottom: 3.6rem;
+  margin-bottom: 1.6rem;
 }
 @media only screen and (max-width: 768px) {
   p.lead {
@@ -1157,7 +1157,7 @@ input::-moz-focus-inner {
   line-height: 1.833;
 }
 .section-intro.with-bottom-sep {
-  padding-bottom: 4.2rem;
+  padding-bottom: 1.2rem;
   position: relative;
 }
 .section-intro.with-bottom-sep::after {
@@ -2487,6 +2487,147 @@ padding-bottom: 12px;
 
 
 /* ===================================================================
+ *  12. ABTesting - (_layout.scss)
+ *
+ * ------------------------------------------------------------------- */
+ #ABTesting {
+  background-color: white;
+  /*background-image: url();*/
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  min-height: 800px;
+  position: relative;
+  padding: 15rem 0 15rem;
+  color: whitesmoke;
+}
+#ABTesting .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+}
+#ABTesting .gradient-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: .4;
+  background: -moz-linear-gradient(top, #BFDFAD95, transparent 100%);
+  background: -webkit-linear-gradient(top,  #BFDFAD95, transparent 100%);
+  background: linear-gradient(to bottom,  #BFDFAD95, transparent 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d9000000', endColorstr='#00000000',GradientType=0 );
+}
+#ABTesting .section-intro h3 {
+  color: rgb(0, 0, 0);
+}
+#ABTesting .section-intro h1 {
+  color: rgb(0, 0, 0);
+}
+#ABTesting .section-intro .lead {
+  color: rgb(0, 0, 0);
+}
+#ABTesting .down-right img {
+  position: relative;
+  top: 0px;
+  right: 0px;
+}
+#ABTesting .down-left img {
+  position: relative;
+  bottom: 0px;
+  left: 0px;
+}
+#ABTesting .up-right img {
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+#ABTesting .up-left img {
+  position: relative;
+  top: 0px;
+  right: 0px;
+}
+#ABTesting .services-content {
+  text-align: center;
+  max-width: 1040px;
+}
+#ABTesting .services-list {
+  margin-top: 1.2rem;
+  text-align: center;
+}
+#ABTesting .services-list .service-item {
+  margin-bottom: 3rem;
+  padding: 0 50px;
+  position:relative;
+}
+#ABTesting .services-list .service-item p {
+  color: rgba(242, 242, 242, 0.5);
+}
+#ABTesting .services-list .icon {
+  display: inline-block;
+  margin-bottom: 1.5rem;
+}
+#ABTesting .services-list .icon i {
+  font-size: 5.4rem;
+  color: #FBF1EF;
+}
+#ABTesting .services-list .h05 {
+  font-size: 1.7rem;
+  line-height: 1.765;
+  color: #FBF1EF;
+  margin-bottom: 3rem;
+}
+
+/* ------------------------------------------------------------------- 
+ * responsive:
+ * services
+ * ------------------------------------------------------------------- */
+@media only screen and (max-width: 1024px) {
+  #ABTesting .services-list .service-item {
+    padding: 0 40px;
+  }
+}
+@media only screen and (max-width: 900px) {
+  #ABTesting .services-list .service-item {
+    padding: 0 30px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  #ABTesting {
+    padding: 12rem 0 12rem;
+  }
+  #ABTesting .services-content {
+    max-width: 550px;
+  }
+  #ABTesting .services-list .service-item {
+    padding: 0 15px;
+  }
+  #ABTesting .services-list .icon i {
+    font-size: 5.1rem;
+  }
+}
+@media only screen and (max-width: 600px) {
+  #ABTesting .services-list .service-item {
+    padding: 0 10px;
+  }
+  #ABTesting .services-list .icon i {
+    font-size: 5rem;
+  }
+}
+@media only screen and (max-width: 400px) {
+  #ABTesting .services-list .service-item {
+    padding: 0;
+  }
+}
+
+
+
+/* ===================================================================
  *  XX. testimonials - (_layout.scss)
  *
  * ------------------------------------------------------------------- */
@@ -3198,7 +3339,7 @@ footer h4.h05::after {
     max-width: 480px;
   }
   .footer-main [class*="col-"] {
-    margin-bottom: 3.6rem;
+    margin-bottom: 1.6rem;
   }
 
   footer h4.h05 {

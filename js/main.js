@@ -259,6 +259,7 @@
 
 							});								
 						}, 100);
+					
 					}
 
 					// trigger once only
@@ -268,6 +269,76 @@
 			}); 
 		}
 
+		if (!$("html").hasClass('no-cssanimations')) {
+			$('.animate-right').waypoint({
+				handler: function(direction) {
+
+					var defAnimationEfx = cfg.defAnimation;
+
+					if ( direction === 'right' && !$(right.element).hasClass('animated')) {
+						$(right.element).addClass('item-animate');
+
+						setTimeout(function() {
+							$('body .animate-right.item-animate').each(function(ctr) {
+								var el       = $(right),
+								animationEfx = el.data('animate') || null;	
+
+	                  	if (!animationEfx) {
+			                 	animationEfx = defAnimationEfx;	                 	
+			               }
+
+			              	setTimeout( function () {
+									el.addClass(animationEfx + ' animated');
+									el.removeClass('item-animate');
+								}, ctr * 30);
+
+							});								
+						}, 100);
+					
+					}
+
+					// trigger once only
+					right.destroy(); 
+				}, 
+				offset: '95%'
+			}); 
+		}
+	
+		if (!$("html").hasClass('no-cssanimations')) {
+			$('.animate-left').waypoint({
+				handler: function(direction) {
+
+					var defAnimationEfx = cfg.defAnimation;
+
+					if ( direction === 'left' && !$(left.element).hasClass('animated')) {
+						$(left.element).addClass('item-left');
+
+						setTimeout(function() {
+							$('body .animate-left.item-animate').each(function(ctr) {
+								var el       = $(left),
+								animationEfx = el.data('animate') || null;	
+
+	                  	if (!animationEfx) {
+			                 	animationEfx = defAnimationEfx;	                 	
+			               }
+
+			              	setTimeout( function () {
+									el.addClass(animationEfx + ' animated');
+									el.removeClass('item-animate');
+								}, ctr * 30);
+
+							});								
+						}, 100);
+					
+					}
+
+					// trigger once only
+	       		left.destroy(); 
+				}, 
+				offset: '95%'
+			}); 
+		}	
+	
 	};
 	
 
