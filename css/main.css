@@ -1164,7 +1164,7 @@ input::-moz-focus-inner {
   display: inline-block;
   height: 1px;
   width: 200px;
-  background-color: rgba(242, 242, 242, 0.1);
+  background-color: #2e383f50;
   text-align: center;
 }
 
@@ -2487,7 +2487,7 @@ padding-bottom: 12px;
 
 
 /* ===================================================================
- *  12. ABTesting - (_layout.scss)
+ *  1X. ABTesting - (_layout.scss)
  *
  * ------------------------------------------------------------------- */
  #ABTesting {
@@ -2524,13 +2524,13 @@ padding-bottom: 12px;
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d9000000', endColorstr='#00000000',GradientType=0 );
 }
 #ABTesting .section-intro h3 {
-  color: rgb(0, 0, 0);
+  color: #07617d;
 }
 #ABTesting .section-intro h1 {
-  color: rgb(0, 0, 0);
+  color: #07617d;
 }
 #ABTesting .section-intro .lead {
-  color: rgb(0, 0, 0);
+  color: #2e383f;
 }
 #ABTesting .down-right img {
   position: relative;
