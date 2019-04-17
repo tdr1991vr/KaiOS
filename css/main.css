@@ -1646,6 +1646,8 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   animation: animate-it 3s ease infinite;
 }
 
+
+
 /* vertical animation */
 @-webkit-keyframes animate-it {
   0%, 60%, 80%, 100% {
