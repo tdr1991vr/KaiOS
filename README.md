@@ -54,38 +54,39 @@ Now looking for a new and exciting role to keep learning new skills and contribu
 
 ## Design Skills
 
-	.	Sketching
-	.	Photography
-	.	CAD/CAM
-	.	Rendering
-	.	Concept Development
-	.	Industrial Design
-	.	Graphics
-	.	Concept Design
-	.	Marketing
-	.	Research
-	.	UX Design
-	.	Project Management
-	.	Product Development
-	.	Website Design
+	.	Sketching (1%Percent Studio, Lanchester Research, Elektron Technolgy, RatStands, Bloomon, BigBrother)
+	.	Photography (1%Percent Studio, Lanchester Research)
+	.	CAD/CAM (Lanchester Research, Elektron Technolgy, RatStands)
+	.	Rendering (Lanchester Research, Elektron Technolgy, RatStands, Bloomon, BigBrother)
+	.	Concept Development (1%Percent Studio, Lanchester Research, Elektron Technolgy, Bloomon, BigBrother)
+	.	Industrial Design (1%Percent Studio, Lanchester Research, Elektron Technolgy, RatStands)
+	.	Graphics (1%Percent Studio, Lanchester Research, Elektron Technolgy, RatStands, Bloomon, BigBrother)
+	.	Concept Design (1%Percent Studio, Lanchester Research, Elektron Technolgy, RatStands, Bloomon, BigBrother)
+	.	Marketing (1%Percent Studio, Lanchester Research, BigBrother)
+	.	Research (Lanchester Research, Elektron Technolgy, RatStands, Bloomon, BigBrother)
+	.	UX Design (Bloomon, BigBrother)
+	.	Project Management (1%Percent Studio, Lanchester Research)
+	.	Product Development (1%Percent Studio, Lanchester Research, Elektron Technolgy)
+	.	Website Design (1%Percent Studio, Lanchester Research)
 	.	User Interface Design
-	.	Interaction Design
-	.	Logo Design
-	.	Art Direction
-	.	Illustration
-	.	User Experience
-	.	Wire-framing
-	.	Scrum / Kanban
-	.	Agile Methodologies
- 	.	Lean UX
-	.	A/B Testing
-	.	Sketch App
-	.	User Interface Prototyping
+	.	Interaction Design (Bloomon, BigBrother)
+	.	Logo Design (1%Percent Studio, Lanchester Research)
+	.	Art Direction (1%Percent Studio)
+	.	Illustration (JMDA Design, RatStands & BigBrother)
+	.	User Experience Research Qualitative & Quantitative (Bloomon & BigBrother)
+	.	Wire-framing (Bloomon & BigBrother)
+	.	Scrum / Kanban (Bloomon & BigBrother)
+	.	Agile Methodologies (Bloomon & BigBrother)
+ 	.	Lean UX (Bloomon & BigBrother)
+	.	A/B Testing (Bloomon)
+	.	IOT Devices (BigBrother & Elektron Technolgy) 
+	.	User Interface Prototyping (Bloomon & BigBrother)
 
 ###	Tools & Technologies
 
 	.	Adobe CC/CS
 	.	Adobe XD
+	.	Sketch
 	.	InDesign
 	.	JavaScript
 	.	HTML
