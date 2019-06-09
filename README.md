@@ -1,9 +1,6 @@
-# UX / UI Product Design Portfolio
+# KaiOS HTML 5 Website - TEST
 
-Thomas David Richardson MDes - UX / UI Product Designer - Netherlands 
-<br><br>
-[Portfolio Website](https://tdr1991vr.github.io/UXPortfolio/) - *Currently being Updated* Showcasing my HTML, CSS and Java.<br>
-<br>
+Thomas David Richardson MDes - Product Owner @ MyCujoo - Netherlands <br>
 More links at the bottom. 
 
 ## A little about me
